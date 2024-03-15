@@ -1,6 +1,6 @@
 # Streamlit CV App
 
-## Steps
+## The steps for creating this application
 
 #### model is from codes folder
 
@@ -51,7 +51,7 @@ pip freeze > requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## Steps 
+## The steps for running this application 
 
 ```CMD
 pip install virtualenv
