@@ -1,0 +1,25 @@
+# model is from codes folder
+
+pip install virtualenv
+
+virtualenv env
+
+ Set-ExecutionPolicy RemoteSigned -Scope Process
+
+.\env\Scripts\Activate
+
+pip install streamlit
+
+pip install joblib   
+
+pip install scikit-learn
+
+pip install matplotlib
+
+pip install seaborn
+
+pip install openpyxl
+
+streamlit run streamlit_app.py
+
+pip freeze > requirements.txt
